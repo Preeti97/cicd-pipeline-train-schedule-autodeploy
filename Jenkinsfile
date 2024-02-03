@@ -8,7 +8,7 @@ pipeline {
         stage('Clonerepo') {
             agent { label 'slave01' }
             steps {
-                git 'https://github.com/bhasker-manikyala/DevOpsClassCodes.git'
+                git 'https://github.com/Preeti97/cicd-pipeline-train-schedule-autodeploy.git'
             }
         }
         stage('Compile') {
